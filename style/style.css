@@ -59,7 +59,7 @@ body {
   background-color: #aa5cdb;
   background-image: url("../images/image-header-mobile.jpg");
   background-size: cover;
-  mix-blend-mode: overlay;
+  background-blend-mode: multiply;
   opacity: 0.75;
 }
 
