@@ -1,1 +1,129 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  height: 100vh;
+  margin: 72px 0;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #bebebe;
+}
+
+.container {
+  height: 958px;
+  width: 375px;
+  background-color: #090b1a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card {
+  height: 780px;
+  width: 327px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: #1b1938;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.card__main-image {
+  height: 240px;
+  max-width: 327px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #aa5cdb;
+  background-image: url("/images/image-header-mobile.jpg");
+  background-size: cover;
+  mix-blend-mode: overlay;
+  opacity: 0.75;
+}
+
+.card__main-content {
+  height: 542px;
+}
+
+.card__header__title {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 264px;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  color: white;
+}
+
+.card__header__title--accent {
+  color: #aa5cdb;
+}
+
+.card__body__content {
+  width: 264px;
+  margin: 0 auto;
+  margin-top: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.card__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 16px;
+  height: 264px;
+}
+
+.card__footer__heading {
+  display: block;
+  text-transform: uppercase;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: white;
+}
+
+.card__footer__body {
+  text-transform: uppercase;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+}
+/*# sourceMappingURL=style.css.map */

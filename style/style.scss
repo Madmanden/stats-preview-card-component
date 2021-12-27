@@ -1,0 +1,128 @@
+// BEM docs: https://en.bem.info/methodology/
+// Resource on BEM: https://www.youtube.com/watch?v=aKenj9ZQwJg
+
+$main-background: hsl(233, 47%, 7%); // main background
+$card-background: hsl(244, 38%, 16%); // card background
+$accent: hsl(277, 64%, 61%); // accent
+$white: hsl(0, 0%, 100%); // main heading, stats
+$main-paragraph: hsla(0, 0%, 100%, 0.75); // main paragraph
+$stats-heading: hsla(0, 0%, 100%, 0.6); // stats heading
+
+//.card__main-image .card__header .card__header__title .card__body .card__body__content .card_footer
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  height: 100vh;
+  margin: 72px 0;
+  color: white; //
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //background-color: $main-background; // ?????
+  background-color: rgb(190, 190, 190);
+}
+
+.container {
+  height: 958px; //896px
+  width: 375px;
+  background-color: $main-background;
+  //margin: 0 auto;
+  //padding: 88px 0; //58px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  height: 780px;
+  width: 327px;
+  //margin: auto;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: $card-background;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  &__main-image {
+    height: 240px;
+    max-width: 327px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: $accent;
+    background-image: url("/images/image-header-mobile.jpg");
+    background-size: cover;
+    mix-blend-mode: overlay;
+    opacity: 0.75;
+
+  }
+
+  &__main-content {
+    height: 542px;
+  }
+
+  &__header {
+    &__title {
+      margin: 0 auto;
+      margin-top: 40px;
+      width: 264px;
+      font-family: Inter;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 32px;
+      color: $white;
+
+      &--accent {
+        color: $accent;
+      }
+    }
+  }
+
+  &__body {
+    &__content {
+      width: 264px;
+      margin: 0 auto;
+      margin-top: 16px;
+      font-family: Inter;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      color: $main-paragraph;
+    }
+  }
+
+  &__footer {
+    display: flex;
+    flex-direction: column;
+    // margin: auto;
+    padding-top: 16px;
+    height: 264px;
+
+
+    &__heading {
+      display: block;
+      text-transform: uppercase;
+      font-family: Inter;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      color: $white;
+    }
+
+    &__body {
+      text-transform: uppercase;
+      font-family: "Lexend Deca";
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 25px;
+      text-align: center;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: $stats-heading;
+    }
+  }
+}
