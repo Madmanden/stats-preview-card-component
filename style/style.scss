@@ -22,8 +22,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  //background-color: $main-background; // ?????
-  background-color: rgb(190, 190, 190);
+  background-color: $main-background; // ?????
+  //background-color: rgb(190, 190, 190);
 }
 
 .container {
@@ -54,7 +54,7 @@ body {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     background-color: $accent;
-    background-image: url("/images/image-header-mobile.jpg");
+    background-image: url("../images/image-header-mobile.jpg");
     background-size: cover;
     mix-blend-mode: overlay;
     opacity: 0.75;

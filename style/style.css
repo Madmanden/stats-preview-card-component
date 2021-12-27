@@ -17,7 +17,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #bebebe;
+  background-color: #090b1a;
 }
 
 .container {
@@ -57,7 +57,7 @@ body {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   background-color: #aa5cdb;
-  background-image: url("/images/image-header-mobile.jpg");
+  background-image: url("../images/image-header-mobile.jpg");
   background-size: cover;
   mix-blend-mode: overlay;
   opacity: 0.75;
