@@ -11,6 +11,8 @@ $stats-heading: hsla(0, 0%, 100%, 0.6); // stats heading
 //.card__main-image .card__header .card__header__title .card__body .card__body__content .card_footer
 
 * {
+  margin: 0; //?
+  padding: 0; //?
   box-sizing: border-box;
 }
 
@@ -40,13 +42,13 @@ body {
 .card {
   height: 780px;
   width: 327px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
   //margin: auto;
   background-color: $card-background;
   display: flex;
   flex-direction: column;
   text-align: center;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 
   &__main-image {
     height: 240px;
@@ -56,12 +58,12 @@ body {
     background-size: cover;
     background-blend-mode: multiply;
     opacity: 0.75;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
   }
 
   &__main-content {
     height: 542px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
   }
 
   &__header {
@@ -168,18 +170,23 @@ body {
 
     &__header__title {
       margin: 0;
-      width: inherit;
+      width: 404px;
+      font-size: 36px;
+      line-height: 44px;
     }
 
     &__body__content {
-      margin: 0;
+      margin-top: 25px;
       width: inherit;
     }
 
     &__footer {
       flex-direction: row;
+      justify-content: space-between;
       height: auto;
-      width: inherit;
+      width: 374px;
+      padding: 0;
+      margin-top: 57px;
     }
   }
 }
