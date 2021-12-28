@@ -111,7 +111,6 @@ body {
 
 .card__footer__heading {
   display: block;
-  text-transform: uppercase;
   font-family: Inter;
   font-weight: 700;
   font-size: 24px;
