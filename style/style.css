@@ -38,8 +38,8 @@ body {
 .card {
   height: 780px;
   width: 327px;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
   background-color: #1b1938;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -54,8 +54,6 @@ body {
 .card__main-image {
   height: 240px;
   max-width: 327px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
   background-color: #aa5cdb;
   background-image: url("../images/image-header-mobile.jpg");
   background-size: cover;
@@ -65,6 +63,8 @@ body {
 
 .card__main-content {
   height: 542px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .card__header__title {
@@ -125,5 +125,61 @@ body {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (min-width: 376px) {
+  body {
+    margin: 0;
+  }
+  .container {
+    width: 1440px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .card__main-image {
+    min-width: 540px;
+    height: 446px;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    border-radius: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  .card__main-content {
+    width: 570px;
+    height: 446px;
+    padding: 71px 95px 59px 71px;
+  }
+  .card {
+    width: 1110px;
+    height: 446px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    text-align: left;
+    border-radius: 0;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  .card__header__title {
+    margin: 0;
+    width: inherit;
+  }
+  .card__body__content {
+    margin: 0;
+    width: inherit;
+  }
+  .card__footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: auto;
+    width: inherit;
+  }
 }
 /*# sourceMappingURL=style.css.map */
