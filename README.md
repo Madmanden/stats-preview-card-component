@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/stats-preview-card-component-built-with-sass-bem-and-flexbox-6GNzL0Fzd](https://www.frontendmentor.io/solutions/stats-preview-card-component-built-with-sass-bem-and-flexbox-6GNzL0Fzd)
 - Live Site URL: [https://madmanden.github.io/stats-preview-card-component/](https://madmanden.github.io/stats-preview-card-component/)
 
 ## My process
