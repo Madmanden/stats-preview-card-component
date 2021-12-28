@@ -45,7 +45,7 @@ Users should be able to:
 
 ### What I learned
 
-I learned that building re
+I learned that building CSS with the BEM methodology is easier with SASS nesting.
 
 
 ### Continued development
