@@ -99,7 +99,8 @@ body {
   &__footer {
     display: flex;
     flex-direction: column;
-    // margin: auto;
+    justify-content: space-evenly;
+    //margin: auto;
     padding-top: 16px;
     height: 264px;
 
