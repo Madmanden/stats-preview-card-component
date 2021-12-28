@@ -167,15 +167,18 @@ body {
     }
 
     &__body__content {
+      margin: 0;
       margin-top: 25px;
-      width: inherit;
+      width: 374px;
+      text-align: left;
+
     }
 
     &__footer {
       flex-direction: row;
       justify-content: space-between;
       height: auto;
-      width: 374px;
+      width: 347px;
       padding: 0;
       margin-top: 57px;
     }
