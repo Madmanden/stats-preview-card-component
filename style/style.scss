@@ -47,8 +47,8 @@ body {
     background-color: $accent;
     background-image: url("../images/image-header-mobile.jpg");
     background-size: cover;
-    background-blend-mode: overlay;
-    opacity: 0.5;
+    background-blend-mode: multiply;
+    opacity: 0.75;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
   }
@@ -137,7 +137,7 @@ body {
 
   .card__main-image {
     min-width: 540px;
-    height: 446px;
+    height: auto; //446px;
     order: 2;
     border-radius: 0;
     border-top-right-radius: 8px;

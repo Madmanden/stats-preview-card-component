@@ -59,8 +59,8 @@ body {
   background-color: #aa5cdb;
   background-image: url("../images/image-header-mobile.jpg");
   background-size: cover;
-  background-blend-mode: overlay;
-  opacity: 0.5;
+  background-blend-mode: multiply;
+  opacity: 0.75;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
@@ -145,7 +145,7 @@ body {
   }
   .card__main-image {
     min-width: 540px;
-    height: 446px;
+    height: auto;
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
