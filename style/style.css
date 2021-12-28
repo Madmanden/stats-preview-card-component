@@ -59,8 +59,8 @@ body {
   background-color: #aa5cdb;
   background-image: url("../images/image-header-mobile.jpg");
   background-size: cover;
-  background-blend-mode: multiply;
-  opacity: 0.55;
+  background-blend-mode: overlay;
+  opacity: 0.75;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
@@ -193,7 +193,7 @@ body {
     height: auto;
     width: 347px;
     padding: 0;
-    margin-top: 42px;
+    margin-top: 87px;
   }
 }
 /*# sourceMappingURL=style.css.map */
